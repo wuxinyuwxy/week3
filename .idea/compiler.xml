@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config_week3_service" />
+        <module name="consul_week3_service" />
+        <module name="eureka_week3_service" />
+        <module name="order_week3_service" />
+        <module name="orderDetail_week3_service" />
+        <module name="week3_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: consul-service
+  cloud:
+    config:
+      uri: http://localhost:10010
+      profile: dev
+      label: master
