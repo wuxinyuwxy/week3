@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/wuxinyuwxy/week3
           search-paths: config-repo
 server:
   port: 10010
