@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config_week3_service" />
         <module name="consul_week3_service" />
-        <module name="eureka_week3_service" />
         <module name="order_week3_service" />
-        <module name="orderDetail_week3_service" />
+        <module name="eureka_week3_service" />
+        <module name="config_week3_service" />
         <module name="week3_api" />
+        <module name="orderDetail_week3_service" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config_week3_service" options="-parameters" />
+      <module name="consul_week3_service" options="-parameters" />
+      <module name="eureka_week3_service" options="-parameters" />
+      <module name="orderDetail_week3_service" options="-parameters" />
+      <module name="order_week3_service" options="-parameters" />
+      <module name="week3_api" options="-parameters" />
+    </option>
   </component>
 </project>
